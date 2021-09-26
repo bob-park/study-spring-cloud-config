@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mysql://ecommerce-mariadb:13306/mydb
+    url: jdbc:mysql://localhost:13306/mydb
     username: root
     password: '{cipher}AQCJ9sQ/CPuWaU5Nxo7/vsvs0RX5FslDxtm/GfNF5XoIhGSOWJc+uzjhxHw8Hq3gaVgoyfYmKxIoDVRqC3SfzwhP1+YESeiDwB7oabRYkB1kHVi8lDCrVtQfagR8/UEjFtjMuGC5wj+Ff2ereZyPCJS1hPzgzkeCj1Tcf725rNZu0Oc2Z8rzsSRtb869s+zfaFVBtpOs0hWiGBxx037zyJ00zn2ATq0hx4oJzNojEUm+/xdV+GjtXEXSa/tgEk2acvdwIQ51T73AQaKUB6ZtWraE9MltDzdc/7iksD50vptohnOEyBpXwPDxYfVDy2w3w732dekAX5Gw/6HSOvqiuziVR42O2DvFtZul2DL0cRuFGfr/tD9dWX4yUrMtbSl88Xo='
   jpa:
@@ -14,7 +14,7 @@ spring:
   rabbitmq:
     host: 127.0.0.1
     port: 5672
-    username: geust
+    username: guest
     password: '{cipher}AQCnGqHp+Qv9sD4FMC9TFyHEc8Mmqz05JLSyiRTL2cXquOzBjsHMIHW5DfWYum8oDIHidtOIGfc2PClQN77Uajrkk2vT2AqEVcaoiRCpgoDSc3Yv9kIRpus2BiudnQAxLXuryuYJmQoYbcyXUQPmQ4gK5e8W/nhYXFepFR7ZZkPTjv6/S59ezUOhLTjLPK1kMjhM5tapZJgBdzkdmyqq3PJ1B+KFsraW0tpUgKFK5XFJCllIgkzlee1X8xm2YdKw6lrsNs5D07cgZSGgLBbvSJucdl8iRF8LXYqLcIK+AjEGftvV/I4zYTwl1BNPC4YDb4h75Y3Gro4HfFbTHB8hsylPr37nF95iJme/CJaXfQH+gcisN0dOIOMZZ7G61n8l/co='
 
 order-service:
