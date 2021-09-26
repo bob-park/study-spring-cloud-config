@@ -1,8 +1,8 @@
 spring:
   datasource:
-    driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mysql://localhost:13306/mydb
-    username: root
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
     password: '{cipher}AQCJ9sQ/CPuWaU5Nxo7/vsvs0RX5FslDxtm/GfNF5XoIhGSOWJc+uzjhxHw8Hq3gaVgoyfYmKxIoDVRqC3SfzwhP1+YESeiDwB7oabRYkB1kHVi8lDCrVtQfagR8/UEjFtjMuGC5wj+Ff2ereZyPCJS1hPzgzkeCj1Tcf725rNZu0Oc2Z8rzsSRtb869s+zfaFVBtpOs0hWiGBxx037zyJ00zn2ATq0hx4oJzNojEUm+/xdV+GjtXEXSa/tgEk2acvdwIQ51T73AQaKUB6ZtWraE9MltDzdc/7iksD50vptohnOEyBpXwPDxYfVDy2w3w732dekAX5Gw/6HSOvqiuziVR42O2DvFtZul2DL0cRuFGfr/tD9dWX4yUrMtbSl88Xo='
   jpa:
     open-in-view: false
